@@ -34,7 +34,7 @@
  * #endif
  * \endcode
  */
-#define ARDUBOY_LIB_VER 50200
+#define ARDUBOY_LIB_VER 50201
 
 // EEPROM settings
 #define ARDUBOY_UNIT_NAME_LEN 6 /**< The maximum length of the unit name string. */
@@ -1391,6 +1391,7 @@ class Arduboy2 : public Print, public Arduboy2Base
    *
    * \see Arduboy2::write()
    */
+  using Print::write;
 
   /** \brief
    * Display the boot logo sequence using printed text instead of a bitmap.
