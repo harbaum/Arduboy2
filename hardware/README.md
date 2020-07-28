@@ -12,3 +12,8 @@ each kid a free device.
 
 The resulting device ran on a single 1,5 AA cell and was compatible
 with the Arduino2/Slimboy project.
+
+Hardware designs for the BG-Boy:
+
+- [Custom BG-Boy printed circuit board](board)
+- [BG-Boy case design](case)
